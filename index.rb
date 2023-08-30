@@ -23,7 +23,7 @@ puts decode_char('.-')
 def decode_word(str)
   decode_str = []
 
-  str.split(' ').each { |item| decode_str.push(decode_char(item)) }
+  str.split.each { |item| decode_str.push(decode_char(item)) }
 
   decode_str.join
 end
