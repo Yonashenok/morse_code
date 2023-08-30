@@ -1,5 +1,3 @@
-
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -65,11 +63,8 @@ Clone this repository to your desired folder:
 
 ```
   git clone https://github.com/Yonashenok/morse-code.git
+  cd morse-code
 ```
-
-- Navigate to the location of the folder in your machine:
-
-you@your-Pc-name:~$ cd morse-code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
