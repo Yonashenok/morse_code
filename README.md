@@ -1,4 +1,4 @@
-# morse_code
+
 
 <a name="readme-top"></a>
 
@@ -28,7 +28,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Vet Clinic <a name="about-project"></a>
+# 📖 Decode Morse Code <a name="about-project"></a>
 
 **Decode Morse Code** is a simple program method to decode a Morse code character, takes a string parameter, and return the corresponding character in uppercase, decode an entire word in Morse code, takes a string parameter, and return the string representation. Every character in a word will be separated by a single space. And also decode the entire message in Morse code, takes a string parameter, and return the string representation. Every word will be separated by 3 spaces
 
@@ -92,8 +92,6 @@ you@your-Pc-name:~$ cd morse-code
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add More Functionality**
-
-*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
