@@ -25,9 +25,7 @@ puts decode_char('.-')
 def decode_word(str)
   decode_str = []
 
-  str.split(' ').each do |item|
-    decode_str.push(decode_char(item))
-  end
+  str.split(' ').each { |item| decode_str.push(decode_char(item)) }
 
   decode_str.join
 end
@@ -37,9 +35,7 @@ puts decode_word('-- -.--')
 def decode_massage(str)
   decode_str_massage = []
 
-  str.split('   ').each do |word|
-    decode_str_massage.push(decode_word(word))
-  end
+  str.split('   ').each { |word| decode_str_massage.push(decode_word(word)) }
 
   decode_str_massage.join(' ')
 end
